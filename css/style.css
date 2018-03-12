@@ -1,73 +1,147 @@
-body{
-    background-color:#000000;
-    margin:0;
-}
+
 #logoDiv{
     border:none;
-    border-bottom:solid gray;
+    border-bottom:solid #e60000;
+    height: 13vh;
+}
+.grid-con{
+    display:grid;
+    grid-template-columns: 215px auto;
+    
+}
+
+img{
+    margin: 0 auto;
+}
+.gridi{
+    text-align:center;
+    font-size: 30px;
 }
 .container{
     width:80vw;
     margin:0 auto;
     background-color: #000000;
 }
+.gnav-container{
+    display:grid;
+    background-color: #000000;
+    grid-template-rows: auto auto auto;
+    padding:0;
+    height:100vh;
+    padding: 0 2vw;
+    position:fixed;
+    width:215px;
+}
+.gnav-ph{
+  
+    grid-row:1 / span 2;
+}
+h1{
+    font-size:76px;
+    padding-bottom:20px;
+}
 .nav-container{
     display:grid;
     background-color: #000000;
     grid-template-rows: auto auto auto;
     padding:0;
-
+    height:100vh;
+    padding: 0 2vw;
+    grid-row:1 / span 2;
+}
+.topp{
+    background-color: #2E2E2E;
+    grid-column: 2;
+    grid-row:1;
 }
 .text{
     color: White;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a:hover {
+    text-decoration:none;
 }
 .nav1{
-    height:100px;
+    margin-top:5vh;
+    height:140px;
+}
+.nsp{
+    border:0px;
+    margin:0px;
 }
 .ns{
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
+    text-decoration: none;
+    cursor: default;
 }
 .navitem{
     background-color: #000000;
     text-align:center;
-    padding: 20px;
     font-size: 30px;
     border:solid grey 1px;
-}   
-.grid-container{
-    display:grid;
-    background-color: #000000;
-    /* grid-template-columns: auto auto auto auto auto auto; */
+} 
+.logo{
+    color:#e60000;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:7px;
+    font-size:40px;
+    margin:40px 0;
+    font-weight: bolder;
 }
-.grid-item{
-    background-color: #000000;
-    text-align:center;
-    font-size: 20px;
-    padding: 40px;
+.navlink{
+    height:15vh;
 }
-.item1{
-    grid-column: 1;
-    grid-row: 1;
-
-}
-.item2{
-    background: url(../images/remodel.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+.samtron{
+    background-color: rgb(63, 63, 63);
+    height: 375px;
+    width:100%;
     grid-column: 2;
-    grid-row: 1;
-    height: 58vw;
-    width: 83.3vw;
-    background-size: contain;
-    padding:0px;
+    grid-row:2;
 }
-.item4{
-    grid-column: 1 / span 2;
-    grid-row: 2; 
+#sindex{
+    height: 125px;
 }
-.item7{
-    grid-column: 1 / span 2;    
+p{
+    margin: 15px 0;
+}
+.abt{
+    height: 250px;
+}
+.gal{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #2E2E2E;
+}
+div.gallery {
+    
 
+    margin:1%;
+    
+    border: 4px solid #ccc;
+    float: left;
+    width: 31.33%;
+    
+    height: 35.5vw;
+    
+    line-height: 35.5vw;
+       
 }
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.simg{
+    padding:3%;
+}
+
+
